@@ -34,7 +34,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
-TARGET_KERNEL_CONFIG := wayne_defconfig
+TARGET_KERNEL_CONFIG := jasmine-perf_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
