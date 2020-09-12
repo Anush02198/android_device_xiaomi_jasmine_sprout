@@ -25,6 +25,9 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+on early-init
+    write /sys/module/dm_verity/parameters/prefetch_cluster 0
+
 on post-fs
     wait_for_prop vendor.sys.listeners.registered true
 
