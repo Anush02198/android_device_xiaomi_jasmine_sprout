@@ -24,9 +24,9 @@
 
 # Inherit MI A2 LegionOS device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_jasmine_sprout.mk
+    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_jasmine_sprout-eng \
-    legion_jasmine_sprout-userdebug \
-	legion_jasmine_sprout-eng
+    lineage_jasmine_sprout-eng \
+    lineage_jasmine_sprout-userdebug \
+	lineage_jasmine_sprout-eng
